@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "861131383745",
+    "project_id": "realbdtest",
+    "storage_bucket": "realbdtest.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861131383745:android:d97e10bf57fa620af00540",
+        "android_client_info": {
+          "package_name": "com.example.realbd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861131383745-brmucddubq2j1ocjbdq5n69gp9nsu7m4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT36cPkCayPtzQjjX8FCktZyBxkSDR0A0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861131383745-brmucddubq2j1ocjbdq5n69gp9nsu7m4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
