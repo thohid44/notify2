@@ -1,0 +1,30 @@
+Method: post
+Url:https://fcm.googleapis.com/v1/projects/realbdtest/messages:send
+Authorization: key need
+//body 
+{
+    "message": {
+        
+           "topic": "all",
+        // "token": "cr_biSoRSOGt3pcUWJpVxA:APA91bEITHBfMyl5S5PsYlzxl5PBOb8e7GNvfmCDT7orEV1itG1WB2qpVm7vm1Frek_Xo-a1_kIGgNbsgKv8uGYqen1dkJ59RevrYgrq71Zs7bBry9-OG5w",
+       
+        "notification": {
+            "title": "Bismillahir Rahamanir Rahim!",
+            "body": "This is a test message!"
+        },
+        "data": {
+        "title_bn": "শুভেচ্ছা",
+        "body_bn": "এই বার্তা বাংলায় পাঠানো হয়েছে।",
+        "title_ar": "تحية",
+        "body_ar": "تم إرسال هذه الرسالة باللغة العربية.",
+        "title_en": "Greetings",
+        "body_en": "This message is sent in English.",
+        "lang": "bn"
+    },
+        "android": {
+            "notification": {
+                "channel_id": "12"
+            }
+        }
+    }
+}
